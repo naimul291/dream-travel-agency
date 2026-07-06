@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Travel Agency</title>
-    <link rel="stylesheet" href="css.html">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <img class="i1" src="images/logo.png" height="25" width="60" a alt="website logo">
 
         <p class="p1" style="color: aliceblue;"><strong>Explore the World With Us</strong></p>
-        
-        <nav style="text-align: center; margin-top: -20px;">
-            <a href="" class="n1">Home</a>
-            <a href="" class="n1">Destinations</a>
-            <a href="" class="n1">Packages</a>
-            <a href="" class="n1">Gallery</a>
-            <a href="" class="n1">Booking</a>
-            <a href="" class="n1">Contact</a>
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Destinations</a></li>
+                <li><a href="">Packages</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Booking</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </nav>
+        
 
     </header>
 
@@ -90,17 +93,53 @@ At Dream Travel Agency, we turn your bucket list into reality. We combine afford
 </table>
     </section>
 
-<section class="t2">
+<section class="c3">
     <h1>Tour Packages</h1>
-    <ol class="t2">
+    <ol>
         <li>Family Tour</li>
         <li>Honeymoon Package</li>
         <li>Adventure Tour</li>
         <li>Student Tour</li>
         <li>Luxury Tour</li>
-
     </ol>
 </section>
+
+<section>
+    <h1>Book Your Destination</h1>
+    <form class="f1" action="">
+            <label class="f2" for="">Full Name: </label>
+        <input class="f2" type="text" placeholder="Enter Your Name" name="" id=""><br><br>
+        <label class="f2" for="">Email: </label>
+        <input class="f2" type="text" placeholder="Enter Your Email" name="" id=""><br><br>
+        <label class="f2" for="">Password: </label>
+        <input class="f2" type="password" placeholder="Enter Password" name="" id=""><br><br>
+        <label class="f2" for="">Destination: </label>
+        <select class="f2" name="" id="">
+            <option value="">Paris</option>
+        <option value="">Tokyo</option>
+        <option value="">Dubai</option>
+        <option value="">Maldives</option>
+        <option value="">Switzerland</option>
+        <option value="">Bali</option>
+        <option value="">Brazil</option>
+        <option value="">Spain</option>
+        </select><br><br>
+        <label class="f2" for="">Travel Date: </label>
+        <input class="f2" type="date" name="" id=""><br><br>
+        <label class="f2" for="">Number of Travelers:</label>
+        <select class="f2" name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5+</option>
+        </select><br><br>
+        <label class="f2" for="">Special Request:</label>
+        <textarea class="f2" placeholder="Write Your Special Request" rows="5" cols="30" name="" id=""></textarea><br><br>
+        <button>Book Now</button>
+    </form>
+</section>
+
 
 
 </main>

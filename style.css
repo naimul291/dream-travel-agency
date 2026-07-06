@@ -15,10 +15,6 @@
     margin: 0;
 }
 
-.n1{
-    margin: 8px;
-    color: aliceblue;
-}
 
 .c1{
     text-align: center;
@@ -73,4 +69,50 @@
 .t2 ol{
     list-style-position: inside;
     padding-left: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+ nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 50px;
+   
+    
+ }
+nav ul li{
+    margin-left: 30px;
+    font-size: larger;
+    
+}
+
+nav ul li:hover{
+    background-color: rgb(70, 68, 68);
+}
+
+.c3{
+    background-color: rgb(152, 201, 196);
+    height: 220px;
+    width: 1920px;
+    margin-left: 10px;
+    margin-top: 25px;
+    text-align: center;
+    list-style: inside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.f1{
+    background-color: beige;
+    width: 1920px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
 }
